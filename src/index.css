@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styling for Chrome */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00ff77; /* Color of the thumb */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #020420; /* Color of the track */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #03d967; /* Color of the thumb on hover */
+}
